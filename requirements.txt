@@ -1,0 +1,7 @@
+torch>=2.0.0
+transformers>=4.38.0
+gradio>=4.20.0
+plotly>=5.18.0
+pandas>=2.0.0
+sentencepiece
+accelerate
