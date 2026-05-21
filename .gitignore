@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment secrets
+.env
+*.env
+!.env.example
+
+# Model cache & downloaded weights
+.cache/
+models/
+*.bin
+*.safetensors
+*.pt
+*.ckpt
+
+# Artifacts & logs
+artifacts/
+app_startup.log
+*.log
+
+# Test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
